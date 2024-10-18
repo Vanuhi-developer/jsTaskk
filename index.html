@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <table id="datetable">
+        <thead><tr>
+            <th>Firast name</th>
+            <th>Last Name</th>
+            <th>Faculty</th>
+            <th>Course</th>
+            <th>Action</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        
+    </tbody>
+        
+    </table>
+    <form action="" name="form">
+        <label for="firstname">First name:</label>
+        <input type="text" name="firstname" id="firstname">
+        <div>Name must be required</div>
+        <label for="lastname">Last name:</label>
+        <input type="text" name="lastname" id="lastname">
+        <div>lastname must be required</div>
+        <label for="faculty">Choose you faculty</label>
+        <select name="faculty" id="faculty">
+            <option value=""></option>
+            <option value="scientific">scientific</option>
+            <option value="scientific">humanitarian</option>
+            <option value="scientific">economic</option>
+        </select>
+        <div>requred</div>
+        <label for="course">Choose couse:</label>
+        <select name="faculty" id="">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <div>required</div>
+        <button type= "button" onclick="formDate()">Add student data</button>
+    </form>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
